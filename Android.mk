@@ -3,8 +3,7 @@ LOCAL_PATH := $(call my-dir)
 #original path: libreadline.a
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS:= -DHAVE_CONFIG_H -DRL_LIBRARY_VERSION='"6.3"' \
--DREADLINE_LIBRARY 
+LOCAL_CFLAGS:= -DHAVE_CONFIG_H -DRL_LIBRARY_VERSION='"6.3"'
 
 # fixed flags
 LOCAL_CFLAGS+= -ffunction-sections -fdata-sections
