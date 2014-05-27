@@ -45,6 +45,8 @@ LOCAL_SRC_FILES:= \
 	xmalloc.c\
 	xfree.c\
 	compat.c
+LOCAL_STATIC_LIBRARIES:= \
+	ncurses
 LOCAL_MODULE := libreadline
 
 include $(BUILD_STATIC_LIBRARY)
